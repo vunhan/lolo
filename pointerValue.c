@@ -21,7 +21,7 @@
 int main(int argc, char *argv[])
 {
 	int pv = 1;
-//	int* pi = &pv;
+	int* pi = &pv;
 	printf("%s\n", pi);
 	return 0;
 }
